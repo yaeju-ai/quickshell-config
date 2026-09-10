@@ -15,7 +15,6 @@ A personal [Quickshell](https://quickshell.org/) desktop shell for Hyprland — 
   - Clock
   - System tray
   - Volume control
-  - Battery indicator (optional)
   - Settings and power buttons
 - **App launcher** (`modules/AppLauncher.qml`) — fuzzy-searchable overlay over desktop entries, opened on the focused monitor.
 - **Settings window** (`modules/SettingsWindow.qml`) — live-editable shell preferences (bar size/radius, launcher size, toggles, idle dimming) backed by `settings.json`.
