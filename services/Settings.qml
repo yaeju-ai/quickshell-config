@@ -17,6 +17,7 @@ Singleton {
     property alias openWindowsCurrentWorkspaceOnly: adapter.openWindowsCurrentWorkspaceOnly
     property alias showTray: adapter.showTray
     property alias showVolume: adapter.showVolume
+    property alias showBattery: adapter.showBattery
     property alias idleDimEnabled: adapter.idleDimEnabled
     property alias idleTimeoutSeconds: adapter.idleTimeoutSeconds
     property alias idleDimOpacity: adapter.idleDimOpacity
@@ -33,6 +34,7 @@ Singleton {
         adapter.openWindowsCurrentWorkspaceOnly = false;
         adapter.showTray = true;
         adapter.showVolume = true;
+        adapter.showBattery = true;
         adapter.idleDimEnabled = true;
         adapter.idleTimeoutSeconds = 180;
         adapter.idleDimOpacity = 0.85;
@@ -60,6 +62,7 @@ Singleton {
             property bool openWindowsCurrentWorkspaceOnly: false
             property bool showTray: true
             property bool showVolume: true
+            property bool showBattery: true
             property bool idleDimEnabled: true
             property int idleTimeoutSeconds: 180
             property real idleDimOpacity: 0.85

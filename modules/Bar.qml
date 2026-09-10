@@ -77,6 +77,8 @@ PanelWindow {
                         visible: Settings.showVolume
                     }
 
+                    BatteryModule {}
+
                     SettingsButton {}
 
                     PowerButton {}

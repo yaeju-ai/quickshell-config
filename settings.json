@@ -10,6 +10,7 @@
     "radius": 0,
     "showActiveWindow": false,
     "showClock": true,
+    "showBattery": true,
     "showOpenWindows": true,
     "showTray": true,
     "showVolume": true
