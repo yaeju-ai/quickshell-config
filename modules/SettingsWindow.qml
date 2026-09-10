@@ -201,6 +201,14 @@ PanelWindow {
                 }
             }
 
+            SettingRow {
+                label: "배터리"
+                ToggleSwitch {
+                    checked: Settings.showBattery
+                    onToggled: Settings.showBattery = !Settings.showBattery
+                }
+            }
+
             Text {
                 text: "절전"
                 color: Theme.fg8
